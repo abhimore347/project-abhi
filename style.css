@@ -1,0 +1,619 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+/*	background-image: url(images/header.jpg);
+*/	width: 100%;
+	height: 10px;
+	background-size: cover;
+	position:sticky ;
+	top: 0;
+	z-index: 1;
+	margin: 0px 0px 15px 0px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px) {
+	.navbar{
+	height: 50px;
+	width: 100%;
+	
+	}
+}
+.logo{
+	font-size: 25px;
+	display: flex;
+	padding-left: 80px;
+	padding-top:30px;
+/*	margin: 15px 0px 20px 15px;
+*/	float: left;
+	color: #ffff;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.logo{
+	font-size: 25px;
+	display: block;
+	padding-left: 0px;
+	padding-top:30px;
+	text-align: center;
+    float: none;
+	color: #ffff;
+}
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	line-height: 50px;
+
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	nav{
+		height: 150px;
+		background-color: black;
+	}
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.navbar ul{
+		padding:2px;
+		float: right;
+		/*display: block;*/
+	}
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+ .navbar li{
+ 	padding: 1px;
+ 	margin: 0px;
+ 	font-size: 10px;
+ }
+ nav ul{
+ 	text-align: center; }
+}
+nav ul li a:hover{
+	color: lightblue;
+
+}
+nav ul li.active a{
+	color: lightblue;
+}
+
+
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	font-weight: bold;
+	line-height: 50px;
+}
+nav img{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+/*navbar*/
+.main{
+	background-image: url(images/header.jpg);
+	padding-top: 250px;
+	padding-bottom: 170px;
+}
+
+
+ .main h1{
+ 	font-family: 'Aclonica';
+	text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+.main p{
+	text-align: center;
+	color: #F3EDF0;
+	font-size: 20px;
+}
+.btn1{
+    border: solid white 2px;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 700px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.btn1{
+		width: 40%;
+		font-size: 12px;
+		margin-left: 200px;
+	}
+}
+
+.btn1:hover{
+	background-color: white;
+	color: #54C18C;
+	cursor: pointer;
+}
+/*first page css is finished here*/
+body{
+	margin: 0px;
+}
+.first{
+	background-color: white;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.first{
+		height: 170vh;
+		padding-left: 15px;
+
+
+		}
+}
+.first p{
+    
+	margin-bottom: 15px;
+	padding: 20px;
+	font-size: 18px;
+	width: 90%
+}
+.first .h1{
+	font-family: 'Aclonica';
+	margin-top: 50px;
+	font-size: 30px;
+
+}
+
+
+.first hr{
+	border: 2px solid #4BF0AB;
+	width : 7%;
+
+}
+.first .box1{
+	width: 20%;
+	height: 370px;
+	display: inline-block;
+	float: left;
+	margin: 30px;
+	padding-top: 20px;
+	background-color: white;
+	text-align: center;
+		
+}
+
+
+.first .box1:hover{
+	border:2px solid #99F5C9;
+	box-shadow: 0px 0px 10px #75F7B8;
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition: all 0.5s ; 
+ 	-moz-transition: all 0.5s ; 
+ 	-ms-transition: all 0.5s ;
+	
+}
+	
+}
+.first .box1 p{
+	font-size: 20px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.first  .p1{
+		font-size: 15px;
+		padding-left: 15px;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.first .box1 p{
+		font-size: 13px;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.first .box1 h1{
+		font-size: 20px;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.first .box1{
+		float: none;
+		display:block;
+		height: 200px;
+		width: 70%;
+		margin-left: 100px;
+	}
+}
+
+.box11{
+	padding: 0px;
+}
+		
+.first i{
+	color: #60CA97;
+	margin:0px 15px 0px ;
+}
+/*second page css finished here
+*/
+.second{
+	position: relative;
+	background-color: #E4ECE8;
+	height: 100vh;
+	text-align: center;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.second{
+		height: 270vh;
+		padding:10px;
+	}
+}
+.second h6{
+    font-family: 'Aclonica';
+	font-size: 30px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.second h6{
+		font-size: 15px;
+	}
+}
+.second hr{
+	border: 2px solid #4BF0AB;
+	width : 5%;
+}
+.second p{
+	
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 18px;
+	width: 100%
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.second p{
+		font-size: 14px;
+	}
+}
+.text{
+	display: none;
+	position: absolute;
+	width: 250px;
+}
+.img{
+	position: relative;
+
+}
+.img:hover .text{
+	display: block;
+	background-color: black;
+	opacity: 0.7;
+    color: white;
+    height: 150px;
+
+}
+.btn2 button{
+
+	background-color: transparent;
+	color: #3CBF80;
+	border: 1px solid white;
+	padding: 10px;
+	margin: 10px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #48C689;
+  border: 1px solid #48C689;
+  cursor: pointer;
+  transition: 1s;
+  -webkit-transition: all 1s ; 
+  -moz-transition: all 1s ; 
+  -ms-transition: all 1s ;
+  
+}
+.img{
+	display: inline-block;
+	height: 20px;
+	padding: 9px;
+	margin: 25px;
+}
+/*third page css is finished here*/
+.third{
+	height: 100vh;
+	text-align: center;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.third{
+		height: 180vh;
+		padding-left: 10px;
+	}
+}
+.third h1{
+	font-family: 'Aclonica';
+	font-size: 30px;
+	padding-top: 30px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.third h1{
+		font-size: 20px;
+	}
+}
+.third hr{
+	border: 2px solid #4BF0AB;
+	width : 5%;
+}
+.third p{
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px 0px 40px 0px;
+	font-size: 18px;
+	width: 100%
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.third p{
+		font-size: 14px;
+	}
+}
+
+.left{
+	float: left;
+	margin: 0px 30px 100px 30px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.left img{
+	  width: 80%;
+	  float: left;
+	  padding-left: 10px;
+/*	  margin: 10px;
+*/
+	}
+}
+
+.right {
+	width: 90%;
+     text-align: left;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.right{
+		text-align: center;
+	}
+}
+.right h1{
+	font-family: 'Aclonica';
+	padding: 0px;
+	font-size: 20px;
+}
+.right p{
+	font-size: 15px;
+	text-align: left;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.right p{
+		text-align: center;
+	}
+}
+/*fourth page is finished here*/
+.navbar2{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.navbar2{
+		width: 100%;
+	}
+}
+.line{
+	font-size: 25px;
+	color: white;
+	width: 100%;
+	background: #43B887;
+	text-align: center;
+	padding:20px ;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.line{
+		font-size: 15px;
+	}
+}
+/*something is finished here
+*/.fourth {
+	background-color: white;
+	text-align: center;
+	height: 80vh;
+	padding: 5px;
+}@media screen and (min-width: 400px) and (max-width: 800px){
+	.fourth{
+		height: 210vh;
+	}
+}
+.fourth h1{
+	font-family: 'Aclonica';
+	font-size: 30px;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.fourth h1{
+		font-family: 'Aclonica';
+		font-size: 20px;
+
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.fourth p{
+		font-size: 14px
+	}
+}
+.fourth hr{
+	border: 2px solid #4BF0AB;
+	width : 5%;
+}
+
+.team {
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px;
+	display: inline-block;
+	padding: 2px;
+}
+
+.team img{
+	border-radius: 100px;
+}
+.team img:hover{
+	border:5px solid #99F5C9;
+	box-shadow: 10px #75F7B8;
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition: all 0.5s ; 
+ 	-moz-transition: all 0.5s ; 
+ 	-ms-transition: all 0.5s ;
+	
+
+}
+.team p{
+	display: flex;
+}
+/*fifth page css if finished here*/
+.Contact hr{
+	border: 2px solid #4BF0AB;
+	width : 5%;
+}
+.Contact h1{
+	font-family: 'Aclonica';
+	font-size: 22px;
+}
+.fifth{
+	background-color: #E4ECE8;
+	padding: 20px;
+	text-align: center;
+	height: 100vh;
+}
+.info{
+	display: inline-block;
+	padding: 20px;
+	margin: 5px 20px 5px 20px;
+}
+
+
+.info i{
+	color: #1BBB78;
+}
+.form .label{
+/*	text-align: center;
+*/	font-size: 20px;
+    font-family: 'Aclonica'; 
+    padding: 50px;
+	margin: 20px ;
+
+}
+.form{
+
+	height: 20px;
+	padding-left: 50px;
+}
+.form hr{
+	border: 2px solid #4BF0AB;
+	width : 5%;
+	margin-bottom: 50px;
+}
+.form button {
+	background-color: white;
+	color: #3CBF80;
+	border: 1px solid #1BBB78;
+}
+@media screen and (min-width: 400px) and (max-width: 800px){
+	.form button{
+		padding: 10px;
+		width: 100px;
+		font-size: 10px;
+	}
+}
+button:hover {
+	transition: 1s;
+	background-color: #3B9D74;
+	color: white;
+	border: 1px solid #1BBB78;
+}
+.ip{
+	background-color: white;
+ 	border-bottom: 2px solid #eee;
+ 	color: #354052;
+ 	margin-bottom: 20px;
+ 	border:none;
+ 	font-size: 15px;
+ 	width: 30%;
+ 	height: 40px;
+ 	padding-left: 15px;
+ 	margin-left: 13px;
+}
+.ip1{
+
+
+	width: 63%;
+ 	background-color: white;
+ 	border-bottom: 2px solid white;
+ 	color: #354052;
+ 	margin-bottom: 20px;
+ 	border:none;
+ 	font-size: 15px;
+ 	height: 100px;
+ 	margin-left: 13px;
+}
+
+.mbutton{
+	display: block;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #6195ff;
+	color: white;
+	padding: 16px;
+	width: 10%;
+	margin-left:45%;
+	margin-right:50%;
+
+}
+
+
+/*sixth page css is finished here*/
+
+.footer{
+	background-color:#27B77B;
+	text-align: center;
+	color: white;
+	padding:20px 0px 20px 0px;
+	width: 100%;
+}
+.footer i{
+	margin:0px 15px 0px
+}
+.footer i:hover {
+	color: black;
+	cursor: pointer;
+	transition: 1s;
+	-webkit-transition: all 1s ; 
+ 	-moz-transition: all 1s ; 
+ 	-ms-transition: all 1s ;
+}
+.footer1{
+	background-color: black;
+	text-align: center;
+	color: white;
+	opacity: 0.9;
+	padding: 2px 0px 2px 0px;
+	width: 100%;
+}
+
